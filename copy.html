@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <Style>body {
+  font-family: "Century Gothic", "Gill Sans MT", Calibri, sans-serif;
+}
+</Style>
+</head>
+
+<body>
+    <main>
+        <!-- Hero Section -->
+        <div class="hero min-h-screen relative"
+            style="background-image: url(https://i.ibb.co.com/d47v24hy/COVER-PORTFOLIO-A4.jpg);">
+
+            <!-- <div class="navbar container mx-auto absolute inset-x-0 top-0 mb-16">
+                <div class="navbar-start">
+                    <a class="text-xl"><img src="https://i.ibb.co.com/hxY9HBFW/logo-6-removebg-preview.png"
+                            alt="logo"></a>
+                </div>
+            </div> -->
+
+            <!-- Navbar -->
+            <div class="navbar absolute inset-x-0 top-0">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content text-white bg-base-100 rounded-box text-lg z-1 mt-3 w-52 p-2 shadow">
+                            <li><a href="masterplan.html">Master Plan</a></li>
+                            <li><a href="architecture.html">Architecture</a></li>
+                            <li><a href="landscape.html">Landscape</a></li>
+                            <li><a href="interior.html">Interior</a></li>
+                            <li><a href="construction.html">Construction</a></li>
+                        </ul>
+                    </div>
+                    <!-- This is logo section -->
+                    <div class="dropdown dropdown-start">
+                        <div tabindex="0" class=" m-3">
+                            <img class="pl-12" src="https://i.ibb.co.com/hxY9HBFW/logo-6-removebg-preview.png"
+                                alt="logo">
+                        </div>
+                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                            <li><a>Projects</a></li>
+                            <li><a>News</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Sustainability</a></li>
+                            <li><a>People</a></li>
+                            <li><a>Careers</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 gap-10 text-lg text-white font-medium">
+                        <li><a href="masterplan.html">Master Plan</a></li>
+                        <li><a href="architecture.html">Architecture</a></li>
+                        <li><a href="landscape.html">Landscape</a></li>
+                        <li><a href="interior.html">Interior</a></li>
+                        <li><a href="construction.html">Construction</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project Section -->
+            <div class="carousel carousel-vertical gap-10 h-[700px] overflow-y-auto scroll-smooth snap-none">
+    <!-- 1st project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex flex-col md:flex-row gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14" src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="Construction of BOQ Complex">
+                <h1 class="text-3xl font-bold">Construction of BOQ Complex</h1>
+                <p>Bhatiary,Chattogram</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/BHnTVHXd/1.png"
+                    class="max-w-sm md:h-[300px] md:w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd project -->
+    <div class="carousel-item justify-end h-1/2 snap-none">
+        <div class="flex gap-6 w-full justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14" src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="BOQ & Offrs Mess">
+                <h1 class="text-3xl font-bold">BOQ & Offrs Mess</h1>
+                <p>Chattogram Cantonment</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/5Wtwp4gC/2.png"
+                    class="max-w-sm h-[300px] w-[600px]  shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 3rd project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14" src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="Multi Storied SM BARRACK">
+                <h1 class="text-3xl font-bold">Multi Storied SM BARRACK</h1>
+                <p>46 BDE, Dhaka Cantonment</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/Z9FR5v0/3.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 4th project -->
+    <div class="carousel-item h-1/2 snap-none">
+        <div class="flex gap-6">
+            <div dir="rtl" class="text-white">
+                <img class="w-14 " src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="Hostel/Dormitory & Residence">
+                <h1 class="text-3xl font-bold">Hostel/Dormitory & Residence</h1>
+                <p>Main Road,Cox’s Bazar</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/Lh9VzSPk/4.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 5th project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14 " src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="Chittagong, Cantonment">
+                <h1 class="text-3xl font-bold">VVIP Complex</h1>
+                <p>Chattogram, Cantonment</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/HpnhVpPJ/5.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 6th project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14" src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="SHIKHA ANIRBAN">
+                <h1 class="text-3xl font-bold">SHIKHA ANIRBAN</h1>
+                <p>Dhaka Cantonment</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/S4rNJ23x/6.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 7th project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14 " src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="BRB Cox’s Bazar Complex">
+                <h1 class="text-3xl font-bold">BRB Cox’s Bazar Complex</h1>
+                <p>Main Road, Cox’s Bazar</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/MxZL4CgW/8.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+
+    <!-- 8th project -->
+    <div class="carousel-item h-1/2 justify-end snap-none">
+        <div class="flex gap-6 justify-end">
+            <div dir="rtl" class="text-white">
+                <img class="w-14 " src="https://i.ibb.co/XfshXNms/svgexport-9.png" alt="Storied Shopping Complex">
+                <h1 class="text-3xl font-bold">3 Storied Shopping Complex</h1>
+                <p>Kishorgonj, Nilphamari, Bangladesh</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/zWm0Kp54/9.png"
+                    class="max-w-sm h-[300px] w-[600px] shadow-2xl" />
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <section>
+        <footer class="footer footer-horizontal footer-center bg-[#354E4A] text-base-content rounded p-10">
+            <nav class="grid grid-flow-col gap-4 text-white">
+                <a class="link link-hover">Email</a>
+                <a class="link link-hover">Offices</a>
+                <a class="link link-hover">Social</a>
+                <a class="link link-hover">Legal</a>
+            </nav>
+            <nav>
+                <div class="grid grid-flow-col gap-4 text-white">
+                    <a class="text-2xl">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="text-2xl">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a class="text-2xl">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </nav>
+            <aside class="text-white">
+                <p>Copyright © All right reserved by SARKAR IT</p>
+            </aside>
+        </footer>
+    </section>
+</body>
+
+</html>

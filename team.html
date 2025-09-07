@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Daisy UI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- This is navbar -->
+    <section class="bg-base-100 shadow-sm mb-16">
+        <div class="navbar container mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 text-lg mt-3 w-52 p-2 shadow">
+                        <li><a href="news.html">News</a></li>
+                        <li>
+                            <a>Project</a>
+                            <ul class="p-2">
+                                <li><a href="masterplan.html">Master Plan</a></li>
+                                <li><a href="architecture.html">Architecture</a></li>
+                                <li><a href="landscape.html">Landscape</a></li>
+                                <li><a href="interior.html">Interior</a></li>
+                                <li><a href="construction.html">Construction</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="text-red-700">Studio</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="text-xl" href="copy.html"><img src="https://i.ibb.co/hxY9HBFW/logo-6-removebg-preview.png"
+                        alt=""></a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg">
+                    <li><a href="news.html">News</a></li>
+                    <li>
+                        <details>
+                            <summary>Project</summary>
+                            <ul class="p-2">
+                                <li><a href="masterplan.html">Master Plan</a></li>
+                                <li><a href="architecture.html">Architecture</a></li>
+                                <li><a href="landscape.html">Landscape</a></li>
+                                <li><a href="interior.html">Interior</a></li>
+                                <li><a href="construction.html">Construction</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a href="studio.html">Studio</a></li>
+                    <li><a class="text-red-700" href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section -->
+    <section class="container mx-auto mb-16">
+        <div class="hero h-[330px] rounded-xl"
+            style="background-image: url(https://i.ibb.co/5hmn8KLq/Rectangle-4.png);">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Team</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- This is team section -->
+    <section class="container mx-auto">
+        <!-- 1st row -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16 m-8 md:m-0">
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/npK6ZZF/4.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Ava Reynolds</h2>
+                    <p>Marketing Manager</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/d4KV6vz5/3.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Liam Carter</h2>
+                    <p>Software Engineer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/HTNwZDDc/2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Maya Kapoor</h2>
+                    <p>UX/UI Designer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/nspVdTvY/1-2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Noah Bennett</h2>
+                    <p>Project Coordinator</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16 m-8 md:m-0">
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/npK6ZZF/4.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Ava Reynolds</h2>
+                    <p>Marketing Manager</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/d4KV6vz5/3.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Liam Carter</h2>
+                    <p>Software Engineer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/HTNwZDDc/2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Maya Kapoor</h2>
+                    <p>UX/UI Designer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/nspVdTvY/1-2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Noah Bennett</h2>
+                    <p>Project Coordinator</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16 m-8 md:m-0">
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/npK6ZZF/4.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Ava Reynolds</h2>
+                    <p>Marketing Manager</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/d4KV6vz5/3.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Liam Carter</h2>
+                    <p>Software Engineer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/HTNwZDDc/2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Maya Kapoor</h2>
+                    <p>UX/UI Designer</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+                <figure>
+                    <img class="w-full" src="https://i.ibb.co/nspVdTvY/1-2.png" alt="Shoes" />
+                </figure>
+                <div class="card-body text-center">
+                    <h2 class="card-title mx-auto">Noah Bennett</h2>
+                    <p>Project Coordinator</p>
+                    <div class="card-actions justify-center">
+                        <a href=""><i class="fa-brands fa-square-facebook text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube text-2xl"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
